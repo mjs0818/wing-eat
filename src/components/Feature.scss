@@ -1,0 +1,40 @@
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+
+  img {
+    width: 100%;
+    cursor: pointer;
+  }
+  .slick-slider {
+    position: relative;
+    .slick-dots {
+      position: absolute;
+      width: auto;
+      bottom: 0.5rem;
+      right: 1rem;
+    }
+  }
+}
+
+.mobile {
+  width: 100%;
+  position: relative;
+  .page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 40px;
+    border-radius: 20px;
+    background: black;
+    color: white;
+    position: absolute;
+    bottom: 0.75rem;
+    right: 1rem;
+    font-size: 1.5rem;
+  }
+  li {
+    display: none;
+  }
+}
